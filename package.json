@@ -22,8 +22,8 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=wxcore.event-router",
-    "stop": "egg-scripts stop --title=wxcore.event-router",
+    "start": "egg-scripts start --daemon --title=wxcore.message-router",
+    "stop": "egg-scripts stop --title=wxcore.message-router",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
