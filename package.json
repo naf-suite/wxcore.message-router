@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "egg": "^2.5.0",
+    "egg-scripts": "^2.5.1",
     "eslint-config-naf": "^0.0.4",
     "naf-core": "^0.0.19",
     "naf-weixin": "^0.0.4"
