@@ -8,5 +8,5 @@ run/
 *.swp
 *.lock
 .travis.yml
-.appveyor.yml
+appveyor.yml
 

@@ -19,11 +19,13 @@
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "egg-scripts start --daemon --title=wxcore.event-router",
+    "stop": "egg-scripts stop --title=wxcore.event-router",
     "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
